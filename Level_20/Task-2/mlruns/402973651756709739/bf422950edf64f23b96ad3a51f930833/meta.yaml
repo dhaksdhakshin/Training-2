@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/dhaks/Documents/Training/Level 20/Task-2/mlruns/402973651756709739/bf422950edf64f23b96ad3a51f930833/artifacts
+end_time: 1745218156696
+entry_point_name: ''
+experiment_id: '402973651756709739'
+lifecycle_stage: active
+run_id: bf422950edf64f23b96ad3a51f930833
+run_name: run_20250421_121907
+run_uuid: bf422950edf64f23b96ad3a51f930833
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745218148290
+status: 3
+tags: []
+user_id: dhaks

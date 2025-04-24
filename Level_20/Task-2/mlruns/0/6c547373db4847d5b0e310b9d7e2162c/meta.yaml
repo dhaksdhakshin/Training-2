@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6c547373db4847d5b0e310b9d7e2162c/artifacts
+end_time: 1745217768429
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c547373db4847d5b0e310b9d7e2162c
+run_name: manual_run
+run_uuid: 6c547373db4847d5b0e310b9d7e2162c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745217764970
+status: 3
+tags: []
+user_id: dhaks
