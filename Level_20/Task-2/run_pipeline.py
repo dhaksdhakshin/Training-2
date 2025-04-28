@@ -3,7 +3,6 @@ import sys
 
 if __name__ == "__main__":
     try:
-        # Run the pipeline
         pipeline_instance = model_pipeline()
         pipeline_instance.run()
         
@@ -12,7 +11,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error running pipeline: {e}")
         
-        # Check if ZenML is initialized and has a stack
         from zenml.client import Client
         client = Client()
         if not client.active_stack:
