@@ -6,7 +6,6 @@ from steps.model_deployer import model_deployer
 from pipelines.continuous_deployment_pipeline import continuous_deployment_pipeline
 
 if __name__ == "__main__":
-    # Initialize the pipeline
     pipeline_instance = continuous_deployment_pipeline(
         data_ingestion=data_ingestion(),
         model_training=model_training(),
@@ -15,5 +14,4 @@ if __name__ == "__main__":
         model_deployer=model_deployer
     )
     
-    # Run the pipeline
     pipeline_instance.run()
